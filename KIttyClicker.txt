@@ -20,7 +20,7 @@ Upgrades
  
   *kittyPet|kittenPet
     name:Kitten Petting
-    desc: Your kittens deserve a little pat on the back for their hard work. (Each click is now worth two kittens instead of one.)
+    desc: Your kittens deserve a pat on their back for the hard work they've been giving. (Each click is now worth two kittens instead of one.)
     cost:20 kitty
     passive:increase yield of forceKitty by 1
  
@@ -33,19 +33,19 @@ Upgrades
 Buildings
   *kittyBreeder|kittenBreeder
     name:Kitty Caretakers
-    desc:Caretakers that force your kittens to reproduce. (Generates 0.1 Kitty per second)
+    desc:Caretakers that force your kittens to reproduce. (Generates 1 Kittens per second)
     cost:20 kitty
     on tick:yield 1 kitty
  
   *kittyHouse|kittenHouse
     name:Kitty House
-    desc:A house for you kittens to make a family in. (Generates 2 Kitty per second)
+    desc:A house for you kittens to make a family in. (Generates 2 Kittens per second)
     cost:100 kitty
     on tick:yield 2 kitty
 
   *kittyLab
     name:Kitty Lab
-    desc:A secret underground lab that clones kittens.
+    desc:A secret underground lab that clones kittens. (Generates 10 Kittens per second)
     cost:500 kitty
     on tick:yield 10 kitty
 
@@ -59,4 +59,24 @@ Achievements
  *10Kitty
     name:Junior Grandma
     desc:Your a grandma in the works!
-    req:10 forceKitty:clicks
+    req:10 forceKitty:earned
+
+*50Kitty
+    name:Grandma
+    desc:You are now an official member of The Coalition Of Grandmas (COG)
+    req:50 forceKitty:earned
+
+*20House
+    name:Small Kitty Town
+    desc:You have a small, but thriving kitty town. Great Job!
+    req:20 kittyHouse:max
+
+*40House
+    name:Kitty Town
+    desc:Your town grew in size and became a full-blown town. Great Job!
+    req:40 kittyHouse:max
+
+*5Lab
+    name:YOU MONSTER
+    desc:WHY WOULD YOU DO THIS?????
+    req:20 kittyLab:max
