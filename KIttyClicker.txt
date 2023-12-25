@@ -59,12 +59,12 @@ Achievements
  *10Kitty
     name:Junior Grandma
     desc:You are a grandma in the works!
-    req:10 kitty:earned
+    req:10 kitty:max
 
 *50Kitty
     name:Grandma
     desc:You are now an official member of The Coalition Of Grandmas (COG)
-    req:50 kitty:earned
+    req:50 kitty:max
 
 *20House
     name:Small Kitty Town
