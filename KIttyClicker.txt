@@ -1,0 +1,56 @@
+Let's make a game!
+  name:Kitty Clicker
+  author:mrcaddlr
+  desc:A clicker game about kittens.
+ 
+Settings
+  building cost increase:115%
+  background:https://imgur.com/a/4EPPje7
+  building cost refund:50%
+  on start:
+    <b>Welcome to Kitty CLicker!</b>
+ 
+Resources
+  *kitty|kitten
+    name:Kittens
+    desc:Adorable baby felines.
+    start with:1
+ 
+Upgrades
+ 
+  *kittyPet|kittenPet
+    name:Kitten Petting
+    desc: Each click is now worth twwo kittens instead of one. 
+    cost:20 kitty
+    passive:increase yield of forceKitty by 1
+ 
+  *kittyReproduction|kittenReproduction
+    name:Kitty Reproduction
+    desc: Every click is 2x'ed.
+    cost:35 kitty
+    passive:multiply yield of forceKitty by 2
+ 
+Buildings
+  *kittyBreeder|kittenBreeder
+    name:Kitty Caretakers
+    desc:Caretakers that force your kittens to reproduce. (Generates 0.1 Kitty per second)
+    cost:20 kitty
+    on tick:yield 1 kitty
+ 
+  *kittyHouse|kittenHouse
+    name:Kitty House
+    desc:A house for you kittens to make a family in. (Generates 2 Kitty per second)
+    cost:100 kitty
+    on tick:yield 2 kitty
+ 
+Buttons
+  *forceKitty
+    name:Force kitten(s) to reproduce
+    desc:Click this button to force your kitten(s) to reproduce.
+    on click:yield 1 kitty
+ 
+Achievements
+ *10Kitty
+    name:Junior Grandma
+    desc:Your a grandma in the works!
+    req:10 forceKitty:clicks
