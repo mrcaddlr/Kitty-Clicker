@@ -20,13 +20,13 @@ Upgrades
  
   *kittyPet|kittenPet
     name:Kitten Petting
-    desc: Each click is now worth twwo kittens instead of one. 
+    desc: Your kittens deserve a little pat on the back for their hard work. (Each click is now worth two kittens instead of one.)
     cost:20 kitty
     passive:increase yield of forceKitty by 1
  
   *kittyReproduction|kittenReproduction
-    name:Kitty Reproduction
-    desc: Every click is 2x'ed.
+    name:Kitty Entity Multiplied Reproduction Integrated Technology (KERMIT)
+    desc: This new technology allows for kittens to make more babies. (Every click is 2x'ed.)
     cost:35 kitty
     passive:multiply yield of forceKitty by 2
  
@@ -42,7 +42,13 @@ Buildings
     desc:A house for you kittens to make a family in. (Generates 2 Kitty per second)
     cost:100 kitty
     on tick:yield 2 kitty
- 
+
+  *kittyLab
+    name:Kitty Lab
+    desc:A secret underground lab that clones kittens.
+    cost:500 kitty
+    on tick:yield 10 kitty
+
 Buttons
   *forceKitty
     name:Force kitten(s) to reproduce
