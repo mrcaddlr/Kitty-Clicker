@@ -58,13 +58,13 @@ Buttons
 Achievements
  *10Kitty
     name:Junior Grandma
-    desc:Your a grandma in the works!
-    req:10 forceKitty:earned
+    desc:You are a grandma in the works!
+    req:10 kitty:earned
 
 *50Kitty
     name:Grandma
     desc:You are now an official member of The Coalition Of Grandmas (COG)
-    req:50 forceKitty:earned
+    req:50 kitty:earned
 
 *20House
     name:Small Kitty Town
