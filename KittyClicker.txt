@@ -7,7 +7,7 @@ CSS
 #game.on
  
 Settings
-  background:https://file.garden/ZYq17T02dgP5Z-O2/45fc064250701aa908b003da8dfa07d9.jpg
+  background:https://file.garden/ZYq17T02dgP5Z-O2/Wallpaper-BLinz-Fresco-Stripe-Pink-1.jpg.optimal.jpg
   building cost increase:115%
   building cost refund:50%
  
