@@ -2,7 +2,6 @@ Let's make a game!
   name:Kitty Clicker
   author:mrcaddlr
   desc:A clicker game about kittens.
-  on start:<b>Welcome to Kitty Clicker!<b>
 
 CSS
 #game.on
@@ -72,7 +71,7 @@ Buttons
     desc:Click this button to force your kitten(s) to reproduce.
     on click:yield 1 kitty
     class:bigButton hasFlare
-    icon:https://file.garden/ZYq17T02dgP5Z-O2/5650cae6e8e4729679a52060ab4a2991-removebg-preview(1).png 
+    icon:file.garden/ZYq17T02dgP5Z-O2/5650cae6e8e4729679a52060ab4a2991-removebg-preview(1).png 
     icon class:buttonIconSize
     
  
