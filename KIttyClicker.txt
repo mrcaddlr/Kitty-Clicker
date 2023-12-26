@@ -30,7 +30,7 @@ Upgrades
     cost:180 kitty
     passive:multiply yield of forceKitty by 2
 
-*kittyDupe|kittenDupe
+  *kittyDupe|kittenDupe
     name:Advanced Kitty Duplication
     desc: The technology for kitty duplication has advanced! (The Kitty Lab produces 2x the clicks)
     cost:800 kitty
