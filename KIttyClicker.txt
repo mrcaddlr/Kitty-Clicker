@@ -60,6 +60,7 @@ Buttons
     name:Force kitten(s) to reproduce
     desc:Click this button to force your kitten(s) to reproduce.
     on click:yield 1 kitty
+    class:bigButton hasFlare
  
 Achievements
  *10Kitty
