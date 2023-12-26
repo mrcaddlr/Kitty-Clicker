@@ -21,6 +21,7 @@ Settings
   building cost increase:115%
   background:https://imgur.com/a/4EPPje7
   building cost refund:50%
+  on start:<b>Welcome to Kitty Clicker!<b>
  
 Resources
   *kitty|kitten
