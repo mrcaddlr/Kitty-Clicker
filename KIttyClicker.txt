@@ -2,6 +2,7 @@ Let's make a game!
   name:Kitty Clicker
   author:mrcaddlr
   desc:A clicker game about kittens.
+  on start:<b>Welcome to Kitty Clicker!<b>
 
 CSS
 #game.on
@@ -10,18 +11,16 @@ CSS
     image-rendering: pixelated;
  }
 
- .buttonIconSize
+.buttonIconSize
  {
   height:256px;
   weight:256px;
  }
-
  
 Settings
   building cost increase:115%
   background:https://imgur.com/a/4EPPje7
   building cost refund:50%
-  on start:<b>Welcome to Kitty Clicker!<b>
  
 Resources
   *kitty|kitten
