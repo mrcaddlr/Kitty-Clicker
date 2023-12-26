@@ -5,20 +5,10 @@ Let's make a game!
 
 CSS
 #game.on
- {
-    background-size: 100% 100%;
-    image-rendering: pixelated;
- }
-
-.buttonIconSize
- {
-  height:256px;
-  weight:256px;
- }
  
 Settings
+  background:https://file.garden/ZYq17T02dgP5Z-O2/45fc064250701aa908b003da8dfa07d9.jpg
   building cost increase:115%
-  background:https://imgur.com/a/4EPPje7
   building cost refund:50%
  
 Resources
@@ -71,8 +61,7 @@ Buttons
     desc:Click this button to force your kitten(s) to reproduce.
     on click:yield 1 kitty
     class:bigButton hasFlare
-    icon:file.garden/ZYq17T02dgP5Z-O2/5650cae6e8e4729679a52060ab4a2991-removebg-preview(1).png 
-    icon class:buttonIconSize
+    
     
  
 Achievements
