@@ -7,7 +7,7 @@ CSS
 #game.on
  
 Settings
-  background:https://file.garden/ZYq17T02dgP5Z-O2/stripedwallpaper.jpg
+  background:https://file.garden/ZYq17T02dgP5Z-O2/stripedwallpaper.jpg.jpg
   building cost increase:115%
   building cost refund:50%
  
