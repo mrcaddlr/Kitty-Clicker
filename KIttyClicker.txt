@@ -2,6 +2,20 @@ Let's make a game!
   name:Kitty Clicker
   author:mrcaddlr
   desc:A clicker game about kittens.
+
+CSS
+#game.on
+ {
+     background-size: 100% 100%;
+     image-rendering: pixelated;
+ }
+
+ .buttonIconSize
+ {
+         height:256px;
+         weight:256px;
+ }
+
  
 Settings
   building cost increase:115%
@@ -88,11 +102,3 @@ Achievements
     name:YOU MONSTER
     desc:WHY WOULD YOU DO THIS?????
     req:20 kittyLab:max
-
-CSS
-#game
- .buttonIconSize
- {
-     height:256px:
-     weight:256px:
- }
