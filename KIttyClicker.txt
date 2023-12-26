@@ -2,7 +2,6 @@ Let's make a game!
   name:Kitty Clicker
   author:mrcaddlr
   desc:A clicker game about kittens.
-  on start:<b>Welcome to Kitty CLicker!</b>
 
 CSS
 #game.on
