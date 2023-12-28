@@ -10,7 +10,6 @@ Settings
   background:https://file.garden/ZYq17T02dgP5Z-O2/stripedwallpaper.jpg
   building cost increase:115%
   building cost refund:50%
-  stylesheet:stuff/bigBlue.css
  
 Resources
   *kitty|kitten
